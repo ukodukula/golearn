@@ -3,12 +3,16 @@ package main
 import "fmt"
 
 func main() {
-    for i := 0; i<100; i++ {
+
+    var maxFib int = 10
+
+    for i := 0; i <= maxFib; i++ {
         fmt.Printf("fib(%v) = %v\n", i, fib(i))
     }
 }
 
 func fib(num int) int {
+
     if num < 0 {
         panic ("Negatives not supported.")
     }
