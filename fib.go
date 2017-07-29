@@ -9,6 +9,10 @@ func main() {
 }
 
 func fib(num int) int {
+    if num < 0 {
+        panic ("Negatives not supported.")
+    }
+
     if num == 1 || num == 0 {
         return num	
     } else {
