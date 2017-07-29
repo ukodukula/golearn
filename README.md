@@ -1,2 +1,2 @@
 # golearn
-Go is kinda fun!
+Take time to learn something new and be curious!
